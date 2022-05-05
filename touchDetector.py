@@ -34,9 +34,9 @@ class Emailer:
 def button_callback(channel):
     state = GPIO.input(channel)
     
-    if(state ==0):
-        print("Button released")
+    if(state ==1):
         buzzer.on()
+        print("Button pressed")
         sender = Emailer()
         sendTo = 'testiotprojects@gmail.com'
         emailSubject = "touch detected"
@@ -44,8 +44,8 @@ def button_callback(channel):
 
         sender.sendmail(sendTo, emailSubject, emailContent)
     else:
-        print("button pressed")
-        #buzzer.value(0)
+        print("button released")
+        buzzer.off()
         
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
