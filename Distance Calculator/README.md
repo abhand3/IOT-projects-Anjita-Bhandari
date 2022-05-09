@@ -1,4 +1,4 @@
-
+<h1>Raspberry Pi Distance Calculator!</h1>
 <h1>Description</h1>
 
 <p>This is a distance calculator project built on Raspberry Pi. This measures the distance between the object and the sensor. This is assuming you have a working interface for your raspberry pi. This specific tutorial mounts the Raspberry Pi and uses Thonny IDE to run the code.</p>
