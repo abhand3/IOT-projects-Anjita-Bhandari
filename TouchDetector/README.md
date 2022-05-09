@@ -1,4 +1,4 @@
-<h1>Touch Detector Project</h1>
+<h1>Raspberry Pi Touch Detector Project!</h1>
 <h2>Description</h2>
 <p>This is a touch detector project built on Raspberry Pi that detects touch when we pressed the sensor and released it. This also makes a sound through a buzzer when the touch sensor is pressed. This is assuming you have a working interface for your raspberry pi. This specific tutorial mounts the Raspberry Pi and uses Thonny IDE to run the code.</p>
 
