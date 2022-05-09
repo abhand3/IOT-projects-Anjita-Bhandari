@@ -1,4 +1,4 @@
-<h1>Sound Sensor</h1>
+<h1>Raspberry Pi Sound Detector!</h1>
 <h1>Description</h1>
 
 <p>This is a sound detector project built on Raspberry Pi that detects sound. When sound is produced in the surrounding it also looks for the motion movement along with sound and also prints whether motion is detected or motion is not detected. This is assuming you have a working interface for your raspberry pi. This specific tutorial mounts the Raspberry Pi GPIO extension and uses Thonny IDE to run the code.</p>
