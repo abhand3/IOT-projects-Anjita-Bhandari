@@ -18,7 +18,8 @@ GitHub Link: https://github.com/abhand3/IOT-projects-Anjita-Bhandari/tree/main/F
 <h3>Connection Setup</h3>
 1.	Mount the extension in the breadboard</br>
 2.	Connect the flame Sensor to the breadboard with the Raspberry Pi using the 3 Female-to-Male cables to match the diagram below.</br>
-<img width="417" alt="flamecircuit" src="https://user-images.githubusercontent.com/88409698/167449628-59c77064-ef10-44cb-979e-6daeaafa65e4.png">
+<img width="417" alt="flamecircuit" src="https://user-images.githubusercontent.com/88409698/167450321-dd621bd1-b2f0-4bd0-96ea-9e583f1de8bd.png">
+
 
 <img width="531" alt="flame" src="https://user-images.githubusercontent.com/88409698/167448766-b9cb1dd3-8283-48f9-be43-e3b5b90dc780.png">
 
