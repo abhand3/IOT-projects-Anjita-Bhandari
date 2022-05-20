@@ -7,8 +7,8 @@ import smtplib
 
 SMTP_SERVER = 'smtp.gmail.com' #Email Server (don't change!)
 SMTP_PORT = 587 #Server Port (don't change!)
-GMAIL_USERNAME ='testiotprojects@gmail.com'
-GMAIL_PASSWORD = 'Tigers@TU!'
+GMAIL_USERNAME ='' //YOUR EMAIL
+GMAIL_PASSWORD = '' //YOUR EMAIL PASSWORD
 
 class Emailer:
 	def sendmail(self, recipient,  subject, content):
@@ -41,7 +41,7 @@ def callback(channel):
         print("flame detected")
         buzzer.on()
         sender = Emailer()
-        sendTo = 'testiotprojects@gmail.com'
+        sendTo = '' //EMAIL
         emailSubject = "flame detected"
         emailContent = "flame detected in the lab"
         
