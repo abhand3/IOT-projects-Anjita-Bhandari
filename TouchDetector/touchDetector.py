@@ -7,8 +7,8 @@ import smtplib
 
 SMTP_SERVER = 'smtp.gmail.com' #Email Server (don't change!)
 SMTP_PORT = 587 #Server Port (don't change!)
-GMAIL_USERNAME ='testiotprojects@gmail.com'
-GMAIL_PASSWORD = 'Tigers@TU!'
+GMAIL_USERNAME ='' //your email
+GMAIL_PASSWORD = '' //password
 
 #Create class to send an email
 class Emailer:
@@ -38,7 +38,7 @@ def button_callback(channel):
         buzzer.on()
         print("Button pressed")
         sender = Emailer()
-        sendTo = 'testiotprojects@gmail.com'
+        sendTo = '' //email
         emailSubject = "touch detected"
         emailContent = "Somebody touch the sensor in the lab"
 
