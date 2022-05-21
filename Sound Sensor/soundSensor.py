@@ -8,8 +8,8 @@ pir = MotionSensor(4)
 
 SMTP_SERVER = 'smtp.gmail.com' #Email Server (don't change!)
 SMTP_PORT = 587 #Server Port (don't change!)
-GMAIL_USERNAME ='testiotprojects@gmail.com'
-GMAIL_PASSWORD = 'Tigers@TU!'
+GMAIL_USERNAME ='' //your email
+GMAIL_PASSWORD = '' //password
 
 #Create class to send an email
 class Emailer:
@@ -40,7 +40,7 @@ def callback(channel):
         if GPIO.input(channel):
                # print ("Sound Detected!")
             sender = Emailer()
-            sendTo = 'testiotprojects@gmail.com'
+            sendTo = '' //email
             emailSubject = "Sound detected"
             emailContent = "Sound detected in the lab"
 
