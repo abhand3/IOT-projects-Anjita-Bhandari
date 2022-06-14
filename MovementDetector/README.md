@@ -1,4 +1,4 @@
-<h1>Raspberry Pi Vibration Detector!</h1>
+<h1>Raspberry Pi Movement Detector!</h1>
 
 <h2>Description</h2>
 <p>This is a Vibration/Movement detector project built on Raspberry Pi that detects movement and print movement is detected.
